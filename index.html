@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Distribuição Binomial</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Distribuição Binomial</legend>
+        <input type="text" placeholder="Digite o parâmetro n" id="qtdExps" />
+        <input
+          type="text"
+          placeholder="Digite o parâmetro p"
+          id="probSucesso"
+        />
+        <button id="btnGerar">Gerar</button>
+      </fieldset>
+    </form>
+
+    <div id="chartContainer">
+      <canvas id="myChart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

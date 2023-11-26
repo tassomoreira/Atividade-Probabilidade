@@ -1,0 +1,13 @@
+body {
+  background-color: #f7f7f7;
+}
+
+form {
+  max-width: 50%;
+  margin: auto;
+}
+
+#chartContainer {
+  max-width: 50%;
+  margin: auto;
+}
